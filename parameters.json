@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminPassword": {
+            "value": null
+        },
+        "adminUserName": {
+            "value": "tom"
+        },
+        "authenticationType": {
+            "value": "password"
+        },
+        "dnsPrefix": {
+            "value": "jenkinspoc"
+        },
+        "publicIPName": {
+            "value": "JenkinsIP"
+        },
+        "publicIPNewOrExisting": {
+            "value": "new"
+        },
+        "publicIPResourceGroup": {
+            "value": "Jenkins"
+        },
+        "storageAccountName": {
+            "value": "jenkinspoc"
+        },
+        "storageAccountNewOrExisting": {
+            "value": "new"
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "storageAccountResourceGroup": {
+            "value": "Jenkins"
+        },
+        "vmName": {
+            "value": "Jenkins"
+        },
+        "vmSize": {
+            "value": "Standard_DS1_v2"
+        },
+        "location": {
+            "value": "westeurope"
+        }
+    }
+}
